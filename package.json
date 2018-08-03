@@ -1,0 +1,21 @@
+{
+  "name": "pms_API",
+  "version": "1.0.0",
+  "description": "pms - Profile Management System Server API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/Server.js"
+  },
+  "author": "Gurcharn Singh Sikka",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
